@@ -1,0 +1,109 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	margin: 0;
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(12, 118, 255), #00569f 90%);
+	height: 100vh;
+	background-repeat: no-repeat;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 600px;
+	width: 80%;
+}
+
+#wrapper{
+	position: absolute;
+	background-color: white;
+	left: 10%;
+	top: 10%;
+	width: 80%;
+	height: 80%;
+	margin-left: -10px;
+	margin-top: -10px;
+	overflow: hidden;
+}
+
+header{
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 200%;
+	background-position: left;
+}
+
+h1{
+	margin: 0;
+	padding: 10px;
+	color: white;
+}
+
+nav{
+	height: 100%;
+	width: 200px;
+  	float: left;
+	background-color: lightblue;
+
+}
+
+nav ul {
+	font-size: 1.2em; width: 20%;
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+a{
+	text-decoration: none !important;	
+}
+
+nav a:visited {
+	color: #344873;
+	text-decoration: none !important;
+	
+}
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: none !important;
+}
+
+#content{
+	padding-left: 250px;
+	font-size: 1.2em;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+img{
+	float: left;
+	width: 250px;
+}
+
+.resort{
+	display: block;
+	color: #7a83a9;
+	font-size: 1.5em;
+}
+
+p{
+	margin-left: 520px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+
+#content ul{
+	margin-left: 250px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	list-style-image: url('marker.gif');
+}
+
+footer {
+	padding-left: 250px;
+}
